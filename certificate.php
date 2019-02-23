@@ -5,7 +5,7 @@
    header('Location: login.php');
 //     echo"<script>window.location.assign('index.php');</script>";
 }
-frthtrffffffffffffff
+
 include "../admin/php_function_file.php";
 
 if(isset($_REQUEST['snd_id']))
@@ -15,7 +15,7 @@ if(isset($_REQUEST['snd_id']))
 }
 
 $Qry2 = mysql_query("SELECT `vid`, `vname` FROM `vibhag` WHERE 1") or die(mysql_error());
-                                                                                
+  $Qry2 = mysql_query("SELECT `vid`, `vname` FROM `vibhag` WHERE 1") or die(mysql_error());                                                                              
                 $qry_data1=mysql_fetch_array($Qry2);
 
 
