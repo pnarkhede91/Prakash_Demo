@@ -5,7 +5,7 @@
    header('Location: login.php');
 //     echo"<script>window.location.assign('index.php');</script>";
 }
-frthtr
+frthtrffffffffffffff
 include "../admin/php_function_file.php";
 
 if(isset($_REQUEST['snd_id']))
